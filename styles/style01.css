@@ -51,14 +51,25 @@ header{
    
 }
 header p{
-    font-weight: bold;
     font-size: 1.1em;
     display: block;
-    color: white;
-    padding-bottom: 10px;
+    color: black;
+    padding: 15px;
     margin: auto;
     text-align: center;
     max-width: 300px;
+}
+
+header a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+header a:hover{
+    background-color: var(--cor06);
+    padding: 0px 5px 2px 5px;
+    border-radius: 5px;
 }
 /*----------*/
 
@@ -215,6 +226,17 @@ footer{
     background-color: var(--cor06);
     text-align: center;
     font-weight: bold;
-    color: white;
+    color: black;
     padding: 5px;
+}
+
+footer a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+footer a:hover{
+    background-color: var(--cor05);
+    padding: 0px 5px 2px 5px;
+    border-radius: 5px;
 }
