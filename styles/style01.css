@@ -227,7 +227,11 @@ footer{
     text-align: center;
     font-weight: bold;
     color: black;
-    padding: 5px;
+}
+
+footer p{
+    font-size: .8em;
+    padding: 2px;
 }
 
 footer a{
